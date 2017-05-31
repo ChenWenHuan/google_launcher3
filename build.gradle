@@ -29,10 +29,14 @@ android {
         }
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     productFlavors {
         aosp {
-            applicationId 'com.android.launcher3'
-            testApplicationId 'com.android.launcher3.tests'
+            applicationId 'com.android.launcher3.nanjing'
+            testApplicationId 'com.android.launcher3.tests.nanjing'
         }
     }
     sourceSets {
